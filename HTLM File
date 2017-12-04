@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Controlling CSS Animation - Play State and Random Rebuild</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="https://cdn.rawgit.com/davatron5000/Lettering.js/master/jquery.lettering.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <body>
+        <div>
+            <p class="focus">Stay focused!</p>
+        </div>
+        
+        <button onclick="pauseAnimation()" class="pause">Pause Animation</button>
+        <button onclick="resetAnimation()">Reset or Rebuild Animation</button>
+        <button onclick="removeAnimation()">Remove Animation</button>
+    </body>
+</html>
